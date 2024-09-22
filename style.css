@@ -6,6 +6,7 @@
 
 body {
 	background: linear-gradient(to right, #00274C 50%, #FFCB05 50%);
+	
 }
 .bg-light {
 	background-color: transparent !important;
@@ -23,7 +24,7 @@ body {
 
 }
 .carousel-caption h5 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 25px;
@@ -49,10 +50,14 @@ body {
 	color: #FFCB05;
 	margin-top: 30px;
 }
+nav{
+	position: fixed;
+}
 .navbar-nav a {
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	font-weight: bold;
+
 }
 .navbar-light .navbar-brand {
 	color: #000000;
@@ -60,6 +65,7 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
+	
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
 	color: #000000;
