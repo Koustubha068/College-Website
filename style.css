@@ -109,13 +109,43 @@ nav{
 	color: #fff;
 	border-radius: 20px;
 	box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+	font-size:1.2rem;
+	
+	
 }
 .card img {
 	border-radius: 20px 20px 0 0;
 }
+.card-title{
+	font-size:2rem;
+}
+.card-text{
+	font-size:1.5rem;
+}
 .card:hover {
-	background-color: #fff;
-	color: #000;
+	background-color: #00000067;
+	color: #fff8f8;
 	box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
 	transform: translateY(-15px);
+}
+.title{
+	text-align:center;
+	color:rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255,0.3);
+	font-size:2rem;
+}
+.button{
+	background-color:#00274C;
+	height:20px;
+	color: #FFCB05;
+	font-size: 1.5rem;
+	text-decoration:none;
+}
+.button:hover{
+	background-color:#00274C;
+	font-size: 1rem;
+	height:20px;
+	color: #FFCB05;
+	text-decoration:none;
+	font-size: 1.7rem;
 }
