@@ -253,3 +253,80 @@ nav{
 
 
 /* end of profiles*/
+
+/* start of college overview*/
+.row{
+    padding:50px;
+    /*margin-top:50px;*/
+    
+}
+
+.newton{
+    text-align:center;
+    font-family: "antiquarian", sans-serif;
+    color:#1A1A2A;
+	
+	
+
+}
+.about{
+    margin-top:50px;
+	
+  
+
+}
+.about .icard{
+    border-radius:10px;
+}
+.about .icard img{
+    border-radius:10px;
+
+}
+.about h2{
+    font-weight:600;
+    font-family: "antiquarian", sans-serif;
+    letter-spacing:0.5px;
+}
+.about p{
+    font-weight:3rem;
+	margin-top:5%;;
+}
+#about-btn{
+    width:150px;
+    height:38px;
+    border:1px;
+    border-radius:5px;
+    background: #00274C;
+    color:#FFCB05;
+    letter-spacing:2px;
+    font-weight:550;
+    transition:0.5s ease;
+    cursor:pointer;
+    font-family: "antiquarian", sans-serif;
+    font-size: 24px;
+}
+.him{
+    color:#1A1A2A;
+    font-family:"antiquarian", sans-serif;
+    font-size:3em;
+	margin-top:7%;
+}
+.Newton{
+    color:#1A1A2A;
+    font-family: "antiquarian", sans-serif;
+    font-size:1.5rem;
+}
+
+#about-btn{
+    width:250px;
+	font-size:25px;
+}
+.img2{
+    border:5px solid #1A1A2A;
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.4);
+    width:100%;
+   
+
+}
+
+/* end of college overview*/
