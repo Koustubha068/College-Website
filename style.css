@@ -1,17 +1,26 @@
 * {
 	font-family: 'Montserrat', sans-serif;
+	transition: all .5s ease-in-out;
+	
+}
+
+body {
+	background: linear-gradient(to right, #00274C 50%, #FFCB05 50%);
 }
 .bg-light {
 	background-color: transparent !important;
+
 }
 .carousel-item {
 	height: 100vh;
 	min-height: 300px;
+	
 }
 .carousel-caption {
 	bottom: 220px;
     background-color: rgb(255, 255, 255,0.7);
     margin-top:100px;
+
 }
 .carousel-caption h5 {
 	font-size: 3rem;
@@ -86,4 +95,21 @@
 		padding: 10px 15px;
 		font-size: 15px;
 	}
+}
+
+.card {
+	width: 22rem;
+	background-color: #000;
+	color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+}
+.card img {
+	border-radius: 20px 20px 0 0;
+}
+.card:hover {
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
+	transform: translateY(-15px);
 }
