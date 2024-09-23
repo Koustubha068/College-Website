@@ -17,3 +17,11 @@ var swiper = new Swiper(".mySwiper", {
     }
     
   });
+
+  function myFunction() {
+    let userInput = document.querySelector("#userInput")
+    let message = document.querySelector("#message")
+    message.innerHTML ="Welcome to the game, " + userInput.value +"!" //locks value for name
+
+
+}
