@@ -153,7 +153,7 @@ nav{
 }
 .button:hover{
 	background-color:#00274C;
-	font-size: 1rem;
+	font-size: 27px;
 	height:20px;
 	color: #FFCB05;
 	text-decoration:none;
@@ -293,7 +293,7 @@ nav{
     letter-spacing:0.5px;
 }
 .about p{
-    font-weight:3rem;
+    font-weight:50px;
 	margin-top:5%;;
 }
 #about-btn{
@@ -313,13 +313,13 @@ nav{
 .him{
     color:#1A1A2A;
     font-family:"antiquarian", sans-serif;
-    font-size:3em;
+    font-size:30px;
 	margin-top:7%;
 }
 .Newton{
     color:#1A1A2A;
     font-family: "antiquarian", sans-serif;
-    font-size:1.5rem;
+    font-size:24px;
 }
 
 #about-btn{
@@ -342,20 +342,20 @@ nav{
 	align-items:center;
 }
 .collection .content{
-	height:55rem;
-	width:50rem;
+	height:900px;
+	width:800px;
 	background-color: white;
-	border: .1rem solid rgba(2255,255,255,.1);
-	border-radius:2rem;
-	border-bottom:.4rem solid #00274C;
-	border-top:.4rem solid #00274C;
+	border: 15px solid rgba(2255,255,255,.1);
+	border-radius:30x;
+	border-bottom:20px solid #00274C;
+	border-top:20px solid #00274C;
 	overflow:hidden;
 	
 }
 .content img{
 	width:100%;
-	border-bottom-Left-radius: .6rem;
-	border-bottom-right-radius: .6rem;
+	border-bottom-Left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 .text-content{
 	display:flex;
@@ -364,12 +364,12 @@ nav{
 	flex-direction:column;
 }
 .text-content h3{
-	font-size:2rem;
+	font-size:30px;
 	font-weight:500;
 }
 .text-content p {
-	max-width:22rem;
-	font-size:1.5rem;
+	max-width:500px;
+	font-size:25px;
 	font-weight:400;
 	text-align:center;
 }
@@ -378,7 +378,7 @@ nav{
 	padding:10px;
 	border: 5px solid #00274C;
 	outline:none;
-	font-size:10px;
+	font-size:20px;
 	border-radius:15px;
 	margin:1rem 0;
 	cursor:pointer;
